@@ -1,0 +1,153 @@
+/* QuickMenu 0 */
+
+	/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{	
+		width:auto;
+	}
+
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{	
+		padding:6px 30px 6px 10px;
+		margin:0px -1px 0px 0px;
+		z-index:100;
+		color:#EFEFEF;
+		font-family:Arial;
+		font-size:12px;
+		text-decoration:none;
+		text-align:left;
+		border-width:1px 1px 0px;
+		border-style:solid;
+		border-color:transparent;
+		border-radius:6px 6px 0px 0px;-moz-border-radius:6px 6px 0px 0px;-webkit-border-radius:6px 6px 0px 0px;-ms-border-radius:6px 6px 0px 0px;-o-border-radius:6px 6px 0px 0px;-khtml-border-radius:6px 6px 0px 0px;
+	}
+
+
+	/*"""""""" (MAIN) Active State""""""""*/	
+	body #qm0 .qmactive, body #qm0>li:hover>.qmparent	
+	{	
+		background-color:#EFEFEF;
+		color:#1E1E1E;
+		border-color:#EFEFEF;
+	}
+
+
+	/*"""""""" (SUB) Container""""""""*/	
+	#qm0 div, #qm0 ul	
+	{	
+		padding:10px;
+		margin:0px;
+		background-color:#1E1E1E;
+		border-width:3px 1px 1px;
+		border-style:solid;
+		border-color:#EFEFEF;
+		border-radius:0px 0px 6px 6px;-moz-border-radius:0px 0px 6px 6px;-webkit-border-radius:0px 0px 6px 6px;-ms-border-radius:0px 0px 6px 6px;-o-border-radius:0px 0px 6px 6px;-khtml-border-radius:0px 0px 6px 6px;
+		box-shadow:0px 0px 10px rgb(255, 245, 206);-moz-box-shadow:0px 0px 10px rgb(255, 245, 206);-webkit-box-shadow:0px 0px 10px rgb(255, 245, 206);-ms-box-shadow:0px 0px 10px rgb(255, 245, 206);-o-box-shadow:0px 0px 10px rgb(255, 245, 206);-khtml-box-shadow:0px 0px 10px rgb(255, 245, 206);
+	}
+
+
+	/*"""""""" (SUB) Column""""""""*/	
+	#qm0 div .qmmulti, #qm0 ul .qmmulti	
+	{	
+		padding:10px;
+	}
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{	
+		padding:5px 40px 5px 5px;
+		z-index:0;
+		background-color:transparent;
+		color:#EFEFEF;
+		font-weight:normal;
+		border-width:0px;
+		border-style:none;
+		border-color:#EFEFEF;
+		border-radius:0px 0px 0px 0px;-moz-border-radius:0px 0px 0px 0px;-webkit-border-radius:0px 0px 0px 0px;-ms-border-radius:0px 0px 0px 0px;-o-border-radius:0px 0px 0px 0px;-khtml-border-radius:0px 0px 0px 0px;
+		box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;-ms-box-shadow:none;-o-box-shadow:none;-khtml-box-shadow:none;
+	}
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover	
+	{	
+		color:#EDDD78;
+	}
+
+
+	/*"""""""" (SUB) Hover State - (duplicated for pure CSS)""""""""*/	
+	#qm0 ul li:hover>a, #qm0 ul dd:hover>a	
+	{	
+		color:#EDDD78;
+	}
+
+
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 ul li:hover>.qmparent	
+	{	
+		background-color:transparent;
+		color:#EDDD78;
+		border-color:transparent;
+		border-radius:0px 0px 0px 0px;-moz-border-radius:0px 0px 0px 0px;-webkit-border-radius:0px 0px 0px 0px;-ms-border-radius:0px 0px 0px 0px;-o-border-radius:0px 0px 0px 0px;-khtml-border-radius:0px 0px 0px 0px;
+		box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;-ms-box-shadow:none;-o-box-shadow:none;-khtml-box-shadow:none;
+	}
+
+
+	/*"""""""" Individual Titles""""""""*/	
+	#qm0 .qmtitle	
+	{	
+		cursor:default;
+		padding:3px 0px 3px 4px;
+		margin:0px 0px 4px;
+		color:#EDDD78;
+		font-family:arial;
+		font-size:17px;
+	}
+
+
+	/*"""""""" Individual Horizontal Dividers""""""""*/	
+	#qm0 .qmdividerx	
+	{	
+		border-top-width:1px;
+		margin:4px 0px;
+		border-color:#868686;
+	}
+
+
+	/*"""""""" Individual Vertical Dividers""""""""*/	
+	#qm0 .qmdividery	
+	{	
+		border-left-width:1px;
+		height:15px;
+		margin:4px 2px 0px;
+		border-color:#868686;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	ul#qm0 ul ul	
+	{	
+		margin:0px;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	div#qm0 span.qmc_itemdesc, ul#qm0 span.qmc_itemdesc	
+	{	
+		color:#868686;
+		font-size:0.9em;
+	}
+
+
+	/*"""""""" Custom Rule""""""""*/	
+	div#qm0 div div	
+	{	
+		margin:-3px 0px 0px 9px;
+		box-shadow:4px 0px 10px rgb(255, 245, 206);-moz-box-shadow:4px 0px 10px rgb(255, 245, 206);-webkit-box-shadow:4px 0px 10px rgb(255, 245, 206);-ms-box-shadow:4px 0px 10px rgb(255, 245, 206);-o-box-shadow:4px 0px 10px rgb(255, 245, 206);-khtml-box-shadow:4px 0px 10px rgb(255, 245, 206);
+	}
+	/*[END-QS0]*/
+
+

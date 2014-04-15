@@ -1,0 +1,38 @@
+
+/* CONTENT STYLER
+Designed By - Tanmay Saxena
+Version 1.04 */
+
+#content{
+	box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+	-ms-box-shadow:0 0 10px #000 !important;
+	-moz-box-shadow:0 0 10px #000;
+	-o-box-shadow:0 0 10px #000;
+	border:2px solid #F60;
+	padding-left:10px;
+	padding-right:10px;
+	background:#FFF;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	
+	
+	
+	vertical-align:top;   /* A glitch in Google Chrome is being solved here using this line in the CSS file - 10MAY  */
+
+	}
+	
+	td#column{
+		padding-left:10px;
+		padding-right:10px;
+		box-sizing:border-box;
+		
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-ms-box-sizing:border-box;
+		-o-box-sizing:border-box;
+		}
+	

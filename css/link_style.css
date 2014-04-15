@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS UPDATE VERSION 1.03 - Developed By - Tanmay Saxena */
+
+
+/*   LINKS ON HEADER   */
+
+#sheet #header ul#links
+{
+	margin:0;
+	margin-top:10px;
+	float:right;
+	height:80px;
+	}
+
+#links li{
+	
+	background:#FF0;
+	width:80px;
+	height:40px;
+	top:50px;
+	float:left;
+	display:block;
+	list-style-type:none;
+	margin-right:5px;
+	box-shadow:3px -4px 5px  #000000;
+	//border-radius:7px;
+
+	transition:height .3s, background .4s;
+
+	-webkit-transition:height .3s, background .4s;
+	-moz-transition:height .3s, background .4s;
+	-o-transition:height .3s, background .4s;
+	-ms-transition:height .3s, background .4s;
+	cursor:pointer;
+
+	}
+
+#links li:hover{
+	background:#0F0;
+	box-shadow:0 0 30px  #000000;
+	height:90px;
+	width:80px;
+	
+	
+	text-indent:-9999px;
+	}
+	
+
+	
+#links li a{
+	position:absolute;
+	text-decoration:none;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin:18px 0px 0px 34px;
+	display:block;
+
+	
+	//margin-left:32px;
+	
+	}
+
+#links li#fb{
+	background:#0FF url(../images/icons/fb_inactive.png)no-repeat 10px 15px;
+	background-size:20px 20px;
+	 }
+	 
+#links li#fb:hover{
+	background:#03C url(../images/icons/fb_active.png)no-repeat 10px 20px;
+	background-size:60px 60px;
+
+	}
+	
+
+	
+#links li#home{
+	background:#0FF url(../images/icons/home_inactive.png)no-repeat 10px 15px;
+	background-size:20px 20px;
+	 }
+	 
+#links li#home:hover{
+	background:#F90 url(../images/icons/home_active.png)no-repeat 10px 20px;
+	background-size:60px 60px;
+	}
+	
+#links li#sitemap{
+	background:#0FF url(../images/icons/sitemap_inactive.png)no-repeat 10px 15px;
+	background-size:20px 20px;
+	 }
+	 
+#links li#sitemap:hover{
+	background:#FF0 url(../images/icons/sitemap_active.png)no-repeat 10px 20px;
+	background-size:60px 60px;
+	}
+
+#links li#cicdu{
+	background:#0FF url(../images/icons/placement_inactive.jpg)no-repeat 10px 15px;
+	background-size:20px 20px;
+	 }
+	 
+#links li#cicdu:hover{
+	background:#6F0 url(../images/icons/placement_active.jpg)no-repeat 10px 20px;
+	background-size:60px 60px;
+	}

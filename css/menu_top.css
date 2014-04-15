@@ -1,0 +1,351 @@
+.qmclear{}.qmmc:after{
+content: ".";
+display:block;
+height:0px;
+clear:both;
+overflow:hidden;
+}
+
+.qmmc div>a, .qmmc dd>a, .qmmc li>a, .qmmc div>span, .qmmc dd>span, .qmmc li>span, .qmmc div, .qmmc dl, .qmmc dd, .qmmc li, .qmmc ul {
+font-wieght:normal;
+text-decoration:none;
+font-family:Arial;
+font-size:14px;
+line-height:normal;
+padding:0px;
+margin:0px;
+}
+
+.qmmc .qmdivider{
+display:block;
+font-size:1px;
+border-width:0px;
+border-style:solid;
+position:relative;
+z-index:1;
+}
+
+.qmmc .qmdividery{
+float:left;
+width:0px;
+}
+
+.qmmc .qmtitle{
+display:block;
+cursor:default;
+white-space:nowrap;
+position:relative;
+z-index:1;
+}
+
+.qmmc {
+position:relative;
+zoom:1;
+}
+
+.qmmc a, .qmmc li {
+float:left;
+display:block;
+white-space:nowrap;
+position:relative;
+z-index:1;
+line-height:normal;
+}
+
+.qmmc div a, .qmmc ul a, .qmmc ul li {
+float:none;
+}
+
+.qmsh div a {
+float:left;
+}
+
+.qmmc div{
+visibility:hidden;
+position:absolute;
+}
+
+.qmmc .qmcbox{
+cursor:default;
+display:block;
+position:relative;
+z-index:1;
+}
+
+.qmmc .qmcbox a{
+display:inline;
+}
+
+.qmmc .qmcbox div,.qmmc .qmcbox ul{
+float:none;
+position:static;
+visibility:inherit;
+left:auto;
+}
+
+.qmmc .qmmulti{
+float:left;
+position:relative;
+}
+
+.qmmc .qmmulti dd{
+margin:0px;
+padding:0px;
+}
+
+.qmmc dd {
+position:relative;
+}
+
+.qmmc .qmml0 {
+z-index:99;
+}
+
+.qmmc .qmml1 {
+z-index:98;
+}
+
+.qmmc .qmml2 {
+z-index:97;
+}
+
+.qmmc .qmml3 {
+z-index:96;
+}
+
+.qmmc .qmml4 {
+z-index:95;
+}
+
+.qmmc .qmml5 {
+z-index:94;
+}
+
+.qmmc .qmml6 {
+z-index:93;
+}
+
+.qmmc .qmml7 {
+z-index:92;
+}
+
+.qmmc .qmml8 {
+z-index:91;
+}
+
+.qmmc .qmml9 {
+z-index:90;
+}
+
+.qmmc li {
+z-index:auto;
+}
+
+.qmmc ul {
+visibility:hidden;
+position:absolute;
+z-index:10;
+}
+
+.qmmc, .qmmc ul, .qmmc dl {
+list-style:none;
+padding:0px;
+margin:0px;
+}
+
+.qmmc li a {
+float:none;
+}
+
+.qmmc li:hover>ul{
+visibility:inherit;
+left:auto;
+}
+
+#qm0 ul {
+top:100%;
+}
+
+#qm0 ul li:hover>ul{
+visibility:inherit;
+top:0px;
+left:100%;
+}
+
+#qm0 ul dd:hover>ul{
+visibility:inherit;
+top:0px;
+left:100%;
+}
+
+#qm0.qmmc, .qmcoreindicator {
+z-index:9999999;
+}
+
+#qm0 span.qmcbox div, #qm0 span.qmcbox ul, #qm0 span.qmcbox li, #qm0 span.qmcbox span, .qmcoreindicator {
+border-style:none;
+border-width:0px;
+padding:0px;
+margin:0px;
+width:auto;
+height:auto;
+top:auto;
+left:auto;
+white-space:normal;
+box-shadow:none;
+border-radius:0px;
+}
+
+
+
+	/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{	
+		width:auto;
+		background-color:transparent;
+	}
+
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{	
+		padding:15px 30px 15px 10px;
+		background-color:transparent;
+		color:#FFFFFF;
+		font-family:Arial;
+		font-size:14px;
+		text-decoration:none;
+		font-weight:bold;
+		text-align:left;
+		font-variant:small-caps;
+		border-width:0px 0px 0px 1px;
+		border-style:solid;
+		border-color:#00E2FC;
+		
+		
+	}
+
+
+	/*"""""""" (MAIN) Active State""""""""*/	
+	body #qm0 .qmactive, body #qm0>li:hover>.qmparent	
+	{	
+		z-index:100;
+		background-color:#2AFBF4;
+		color:#000000;
+		font-size:14px;
+		text-decoration:none;
+		background-color:#f8ac00;
+		border-color:#C0C0C0;
+		border-style:solid;
+		color:#000000;
+		text-shadow:#FFF 0 0 1px;
+		background-image:url("mainbk.png");
+		background-position:0 100px;
+		text-decoration:none;
+		
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		-ms-transition: all .3s;
+		transition: all .3s; 
+	}
+
+
+	/*"""""""" (SUB) Container""""""""*/	
+	#qm0 div, #qm0 ul	
+	{	
+		margin:-1px 0px 0px;
+		border-width:1px;
+		border-style:solid;
+		border-color:#1E67DE;
+		box-shadow:4px 4px 8px rgba(47, 47, 47, 0.7);-moz-box-shadow:4px 4px 8px rgba(47, 47, 47, 0.7);-webkit-box-shadow:4px 4px 8px rgba(47, 47, 47, 0.7);-ms-box-shadow:4px 4px 8px rgba(47, 47, 47, 0.7);-o-box-shadow:4px 4px 8px rgba(47, 47, 47, 0.7);-khtml-box-shadow:4px 4px 8px rgba(47, 47, 47, 0.7);
+	}
+
+
+	/*"""""""" (SUB) Column""""""""*/	
+	#qm0 div .qmmulti, #qm0 ul .qmmulti	
+	{	
+		padding:10px;
+		background-color:transparent;
+	}
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{	
+		padding:5px 80px 5px 10px;
+		background-color:#000208;
+		opacity:1;
+		color:#FCFCFC;
+		font-size:13px;
+		font-weight:bolder;
+		border-width:1px 0px;
+		border-style:solid;
+		border-color:transparent;
+		border-radius:0px 0px 0px 0px;-moz-border-radius:0px 0px 0px 0px;-webkit-border-radius:0px 0px 0px 0px;-ms-border-radius:0px 0px 0px 0px;-o-border-radius:0px 0px 0px 0px;-khtml-border-radius:0px 0px 0px 0px;
+	}
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover	
+	{	
+		background-color:#3EEDFA;
+		color:#000000;
+		border-color:#1C88E0;
+		box-shadow:4px 0px 6px rgb(255, 191, 22);-moz-box-shadow:4px 0px 6px rgb(255, 191, 22);-webkit-box-shadow:4px 0px 6px rgb(255, 191, 22);-ms-box-shadow:4px 0px 6px rgb(255, 191, 22);-o-box-shadow:4px 0px 6px rgb(255, 191, 22);-khtml-box-shadow:4px 0px 6px rgb(255, 191, 22);
+	}
+
+
+	/*"""""""" (SUB) Hover State - (duplicated for pure CSS)""""""""*/	
+	#qm0 ul li:hover>a, #qm0 ul dd:hover>a	
+	{	
+		background-color:#3EEDFA;
+		color:#000000;
+		border-color:#1C88E0;
+		box-shadow:4px 0px 6px rgb(255, 191, 22);-moz-box-shadow:4px 0px 6px rgb(255, 191, 22);-webkit-box-shadow:4px 0px 6px rgb(255, 191, 22);-ms-box-shadow:4px 0px 6px rgb(255, 191, 22);-o-box-shadow:4px 0px 6px rgb(255, 191, 22);-khtml-box-shadow:4px 0px 6px rgb(255, 191, 22);
+	}
+
+
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 ul li:hover>.qmparent	
+	{	
+		background-color:#3EEDFA;
+		color:#000000;
+		border-color:#1C88E0;
+		box-shadow:4px 0px 6px rgb(255, 191, 22);-moz-box-shadow:4px 0px 6px rgb(255, 191, 22);-webkit-box-shadow:4px 0px 6px rgb(255, 191, 22);-ms-box-shadow:4px 0px 6px rgb(255, 191, 22);-o-box-shadow:4px 0px 6px rgb(255, 191, 22);-khtml-box-shadow:4px 0px 6px rgb(255, 191, 22);
+	}
+
+
+	/*"""""""" Individual Titles""""""""*/	
+	#qm0 .qmtitle	
+	{	
+		cursor:default;
+		padding:5px 0px 5px 4px;
+		background-color:rgba(143, 142, 142, 0.5);
+		color:#313131;
+		font-family:Arial;
+		font-size:11px;
+		font-weight:bold;
+		font-variant:small-caps;
+		border-width:0px 0px 1px;
+		border-style:solid;
+		border-color:#C93333;
+	}
+
+
+	/*"""""""" Individual Horizontal Dividers""""""""*/	
+	#qm0 .qmdividerx	
+	{	
+		border-top-width:1px;
+		border-color:#C93333;
+	}
+
+
+	/*"""""""" Individual Vertical Dividers""""""""*/	
+	#qm0 .qmdividery	
+	{	
+		border-left-width:1px;
+		height:15px;
+		margin:4px 2px 0px;
+		border-color:#555555;
+	}
